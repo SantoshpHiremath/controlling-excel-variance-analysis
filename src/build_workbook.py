@@ -13,8 +13,7 @@ one that Excel opens cleanly and refreshes correctly from a cold write
 practice. A SUMIFS/SUMPRODUCT-based summary table is the same
 "ad-hoc Auswertung" a controller does with Excel every day, is fully
 live-recalculating, and is something I could verify byte-for-byte
-against the source data -- so it's the honest, verifiable choice here.
-This is disclosed in the README.
+against the source data -- so it's the verifiable choice here.
 """
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
